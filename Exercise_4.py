@@ -15,3 +15,4 @@ def draw(fx, start, stop, step, color, label):
     plt.plot(x_array, y_array, color=color, label = label)
     plt.grid()
     plt.legend()
+    plt.show()

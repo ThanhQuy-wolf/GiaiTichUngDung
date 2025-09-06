@@ -10,9 +10,3 @@ def draw(fx, start, stop, step, color, label):
 
     plt.plot(x_array, y_array, color=color, label = label)
     plt.legend()
-
-# Main
-draw(fx_1, -5, 5, 0.0001, "magenta", "y = fx(1)")
-draw(fx_2, -5, 5, 0.0001, "red", "y = fx(2)")
-plt.grid()
-plt.show()

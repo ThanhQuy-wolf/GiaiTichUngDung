@@ -42,6 +42,3 @@ def Cau_2a():
 def Cau_2b():
     print("Max: ", Find_fmax(f_2b, 0, 5))
     print("Min: ", Find_fmin(f_2b, 0, 5))
-
-Cau_2a()
-Cau_2b()

@@ -15,8 +15,3 @@ def f_3c():
 
 def f_3d():
     return f2(f2(2))
-
-print("Cau 3a: ", f_3a())
-print("Cau 3b: ", f_3b())
-print("Cau 3c: ", f_3c())
-print("Cau 3d: ", f_3d())
